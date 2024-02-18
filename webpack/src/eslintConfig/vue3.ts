@@ -41,9 +41,12 @@ const config = (alias:any) => ({
   },
   rules: {
     "no-console":"off",
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
+    "vue/multi-word-component-names": "off",
     "@typescript-eslint/no-this-alias":"off",
     "no-underscore-dangle":"off",
-    "vue/multi-word-component-names":"off",
     "@typescript-eslint/ban-types":"off",
     "func-names":"off",
     "no-new-func":"off",
