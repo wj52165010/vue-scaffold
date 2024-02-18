@@ -32,9 +32,6 @@ const config:webpack.Configuration = {
     ]
   },
   resolve: {
-    alias:{
-      vue$:"vue/dist/vue.esm.js"
-    },
     extensions: ['vue','ts'],
   },
   plugins:[
