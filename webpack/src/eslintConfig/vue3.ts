@@ -41,6 +41,7 @@ const config = (alias:any) => ({
   },
   rules: {
     "no-console":"off",
+    "no-undef":"off",
     "class-methods-use-this": "off",
     "import/prefer-default-export": "off",
     "no-param-reassign": "off",
